@@ -13,5 +13,10 @@ double len2 = obj2.FindingLength();
 Console.WriteLine("\nLength of line 2 :- " +len2);
 
 FindEquality obj3 = new FindEquality();
-Console.Write("\nResult:- "); // console.write don't print next statement in new line 
+Console.Write("\nResult of Equality:- "); // console.write don't print next statement in new line 
 obj3.EqualityMethod(len1, len2);
+
+
+CompareLines obj4 = new CompareLines();
+Console.Write("\nResult of CompareLine :- "); // console.write don't print next statement in new line 
+obj4.Comparelines(len1,len2);
